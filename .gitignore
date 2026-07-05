@@ -1,0 +1,10 @@
+# Docs: docs/architecture/client-side-oauth-libraries.md
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+doc/api/
+*.iml
+.idea/
