@@ -1,0 +1,26 @@
+# Docs: docs/architecture/client-side-oauth-libraries.md
+name: mailkite_client
+description: >-
+  Client-side MailKite SDK. Your user signs into their own MailKite account via
+  OAuth 2.1 + PKCE and the resulting token (which IS the user) drives the API.
+version: 0.10.4
+homepage: https://mailkite.dev
+repository: https://github.com/mailkite/mailkite-flutter
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  crypto: ^3.0.3
+  flutter_secure_storage: ^9.2.2
+  flutter_web_auth_2: ^4.0.0
+  pointycastle: ^3.9.1
+  basic_utils: ^5.7.0
+
+dev_dependencies:
+  test: ^1.25.0
+  flutter_lints: ^5.0.0
