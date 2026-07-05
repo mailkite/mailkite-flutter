@@ -1,0 +1,6 @@
+# Docs: docs/architecture/client-side-oauth-libraries.md
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - example/**
